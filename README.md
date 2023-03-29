@@ -14,6 +14,7 @@ Contents list
 10. [References](#10-references)
 
 ## 1. Introduction
+Linkerd is a service mesh for Kubernetes. It makes running services easier and safer by providing runtime debugging, observability, reliability, and security—all without requiring any changes to the code. Linkerd is fully open source, licensed under Apache v2, and is a Cloud Native Computing Foundation graduated project. Linkerd is developed in the open in the Linkerd GitHub organization. Linkerd has two basic components: a control plane and a data plane. Once Linkerd’s control plane has been installed on the Kubernetes cluster, you add the data plane to your workloads (called “meshing” or “injecting” your workloads) and voila! Service mesh magic happens.
 ## 2. Theoretical background and technology stack
 ## 3. Case study concept description
 ## 4. Solution architecture
