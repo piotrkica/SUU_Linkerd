@@ -14,10 +14,10 @@ We plan on using a "sniffer" to observe the encrytpion of the communication. Two
 will be set up using Kubernetes. Then, ksniff [@git:ksniff] and Wireshark will be used to record communication between the pods,
 and to potentially observe data sent.
 
-<img src="https://github.com/piotrkica/SUU_Linkerd/blob/mkdocs/docs/img/demo_only_ksnif.png" alt="graph1" height="40" style="vertical-align:top; margin:4px">
+<img src="https://github.com/piotrkica/SUU_Linkerd/blob/mkdocs/docs/img/demo_only_ksnif.png?raw=true" alt="graph1" height="40" style="vertical-align:top; margin:4px">
 
 Then, the Linkerd service mesh will be deployed, and the experiment will be repeated. This time, the Linkerd should encrytp observed
 communication, thus making reading sent data impossible.
 
-<img src="https://github.com/piotrkica/SUU_Linkerd/blob/mkdocs/docs/img/demo_linkerd_ksnif.png" alt="graph2" height="40" style="vertical-align:top; margin:4px">
+<img src="https://github.com/piotrkica/SUU_Linkerd/blob/mkdocs/docs/img/demo_linkerd_ksnif.png?raw=true" alt="graph2" height="40" style="vertical-align:top; margin:4px">
 
