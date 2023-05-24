@@ -2,6 +2,8 @@ site_name: Linkerd Docs
 
 theme:
   name: material
+  features:
+    - content.code.copy
 
   palette:
     # Palette toggle for light mode
@@ -25,10 +27,10 @@ nav:
   - Environment configuration description: "environment_configuration_description.md"
   - Solution architecture: "solution_architecture.md"
   - Demo and step by step instruction:
-      - "Consfiguration set-up": "test.md"
-      - "Execution procedure": "test.md"
-      - "Plaintext sniffing": "test.md"
-      - "Ciphertext sniffing": "test.md"
+      - "Consfiguration set-up": "sniff.md"
+      - "Execution procedure": "sniff.md"
+      - "Plaintext sniffing": "sniff.md"
+      - "Ciphertext sniffing": "sniff.md"
   - Team and contribution: "team_and_contribution.md"
 
 plugins:
