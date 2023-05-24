@@ -35,16 +35,16 @@ kubectl get services -l app=server # <cluster-ip-server>
 
 ```
 
-#### searching for server-<...> netnamespace:
+### Searching for server-<...> netnamespace:
 
-find server's IP:
+Finding server's IP:
 
 ```bash
 # Find the server pod's IP address
 kubectl get pods -l app=server -o wide
 ```
 
-find and copy netnamespace **\<server-ns>** having **\<server-ip>**:
+Find and copy netnamespace **`<server-ns>`** having **`<server-ip>`**:
 
 ```bash
 # Find and copy the netnamespace <server-ns> corresponding to <server-ip>

@@ -1,6 +1,6 @@
 # Ciphertext
 
-mesh application:
+Mesh application:
 
 ```bash
 # Perform pre-checks for Linkerd installation
@@ -20,7 +20,7 @@ linkerd check
 
 ```
 
-ignore warning:
+Ignore warning:
 
 ```bash
 # Ignore warning by injecting Linkerd sidecar into server deployment YAML and applying the modified configuration
@@ -31,14 +31,14 @@ kubectl get deployment client -o yaml | linkerd inject - | kubectl apply -f -
 
 ```
 
-linkerd is starting new pods, search for new pods and their netnamespaces: find new client's name:
+Linkerd is starting new pods, search for new pods and their netnamespaces: find new client's name:
 
 ```bash
 # Find the name of the new client pod
 kubectl get pods -l app=client
 ```
 
-find new server's name:
+Find new server's name:
 
 ```bash
 # Find the names of the new client and server pods
@@ -52,14 +52,14 @@ kubectl -c nginx cp index3.html server-<new...>:usr/share/nginx/html/index.html
 kubectl -c nginx exec server-<new...> -- nginx -s reload
 ```
 
-write down **\<server-new-ip>**:
+Write down **\`<server-new-ip>`**:
 
 ```bash
 # Write down the IP address of the server pod
 kubectl get pods -l app=server -o wide
 ```
 
-find and copy netnamespace **\<server-new-ns>** having **\<server-new-ip>**:
+Find and copy netnamespace **`<server-new-ns>`** having **\`<server-new-ip>`**:
 
 ```bash
 # Find and copy the netnamespace <server-new-ns> corresponding to <server-new-ip>

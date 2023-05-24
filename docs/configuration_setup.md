@@ -1,6 +1,10 @@
-Underneath commands are assumed to be executed under RHEL compatible OS, such as Fedora.
+The following commands are intended for execution on a RHEL-compatible operating system, such as Fedora:
 
-Start by enabling some modules, then start some services and stop firewall:
+    1. Enable the required modules to ensure proper functionality.
+    2. Initiate the necessary services to enable desired functionalities.
+    3. Safely terminate the firewall service to manage network access effectively.
+
+Please exercise professionalism and caution when executing these commands.
 
 ```bash
 # Enable necessary modules
@@ -23,7 +27,7 @@ sudo systemctl stop firewalld
 
 ```
 
-Clean after prev installations:
+Clean after previous installations:
 
 ```sh
 # Clean up previous installations
@@ -37,3 +41,5 @@ sudo kubeadm init --pod-network-cidr=10.244.0.0/16
 rm ~/.kube/*
 
 ```
+
+We will now proceed with the professional installation of a `k8s` cluster, ensuring adherence to best practices and following the official documentation for a seamless deployment.

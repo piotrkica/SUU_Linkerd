@@ -1,4 +1,4 @@
-Install k8s cluster:
+Proceed with the professional installation of a Kubernetes (k8s) cluster by executing the following commands, which involve configuring the kubeconfig, applying the flannel network configuration, and tainting the node to remove control-plane and master roles::
 
 ```bash
 # Copy the Kubernetes admin configuration to the current user's kubeconfig
@@ -16,7 +16,7 @@ kubectl taint node fedora.36 node-role.kubernetes.io/master-
 
 ```
 
-delete loop from config:
+To remove the loop from the configuration, execute the following command:
 
 ```bash
 # Edit the CoreDNS configuration map
