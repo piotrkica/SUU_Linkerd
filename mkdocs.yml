@@ -39,11 +39,11 @@ plugins:
       bib_file: "docs/refs.bib"
 
 markdown_extensions:
-  - footnotes
+  - pymdownx.snippets
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
+  - footnotes

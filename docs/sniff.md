@@ -2,7 +2,7 @@ Underneath commands are assumed to be executed under RHEL compatible OS, such as
 
 Start by enabling some modules, then start some services and stop firewall:
 
-```bash
+```
 # Enable necessary modules
 sudo modprobe br-netfilter
 
