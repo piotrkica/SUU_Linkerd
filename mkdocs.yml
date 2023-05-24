@@ -18,6 +18,19 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
+nav:
+  - Linkerd-18 - Linkerd Case Study: "index.md"
+  - Background: "background.md"
+  - Case study concept: "case_study_concept"
+  - Environment configuration description: "environment_configuration_description.md"
+  - Solution architecture: "solution_architecture.md"
+  - Demo and step by step instruction:
+      - "Consfiguration set-up": "test.md"
+      - "Execution procedure":
+      - "Plaintext sniffing":
+      - "Ciphertext sniffing":
+  - Team and contribution: "team_and_contribution.md"
+
 plugins:
   - search
   - bibtex:
