@@ -2,7 +2,7 @@ Underneath commands are assumed to be executed under RHEL compatible OS, such as
 
 Start by enabling some modules, then start some services and stop firewall:
 
-```
+```console
 # Enable necessary modules
 sudo modprobe br-netfilter
 
@@ -25,7 +25,7 @@ sudo systemctl stop firewalld
 
 Clean after prev installations:
 
-```bash
+```sh
 # Clean up previous installations
 sudo kubeadm reset
 sudo rm /etc/cni/net.d/10-flannel.conflist
@@ -40,7 +40,7 @@ rm ~/.kube/*
 
 Install k8s cluster:
 
-```bash
+```shell script
 # Copy the Kubernetes admin configuration to the current user's kubeconfig
 sudo cp /etc/kubernetes/admin.conf ~/.kube/config
 
