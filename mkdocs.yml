@@ -29,8 +29,8 @@ nav:
   - Demo and step by step instruction:
       - "Configuration set-up": "sniff.md"
       - "Execution procedure": "sniff.md"
-      - "Plaintext sniffing": "sniff.md"
-      - "Ciphertext sniffing": "sniff.md"
+      - "Plaintext sniffing": "plaintext.md"
+      - "Ciphertext sniffing": "ciphertext.md"
   - Team and contribution: "team_and_contribution.md"
 
 plugins:

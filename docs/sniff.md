@@ -2,7 +2,7 @@ Underneath commands are assumed to be executed under RHEL compatible OS, such as
 
 Start by enabling some modules, then start some services and stop firewall:
 
-```console
+```bash
 # Enable necessary modules
 sudo modprobe br-netfilter
 
@@ -40,7 +40,7 @@ rm ~/.kube/*
 
 Install k8s cluster:
 
-```shell script
+```bash
 # Copy the Kubernetes admin configuration to the current user's kubeconfig
 sudo cp /etc/kubernetes/admin.conf ~/.kube/config
 
