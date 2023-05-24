@@ -27,7 +27,7 @@ nav:
   - Environment configuration description: "environment_configuration_description.md"
   - Solution architecture: "solution_architecture.md"
   - Demo and step by step instruction:
-      - "Consfiguration set-up": "sniff.md"
+      - "Configuration set-up": "sniff.md"
       - "Execution procedure": "sniff.md"
       - "Plaintext sniffing": "sniff.md"
       - "Ciphertext sniffing": "sniff.md"
