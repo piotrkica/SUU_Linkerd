@@ -31,6 +31,7 @@ nav:
       - "Installation and execution procedure": "installation.md"
       - "Plaintext sniffing": "plaintext.md"
       - "Ciphertext sniffing": "ciphertext.md"
+  - Summary - conclusions: "summary.md"
   - Team and contribution: "team_and_contribution.md"
 
 plugins:

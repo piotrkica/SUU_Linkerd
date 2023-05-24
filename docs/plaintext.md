@@ -1,6 +1,6 @@
 # Plaintext sniffing
 
-## Plaintext
+Plaintext
 
 ```bash
 # Create a deployment for the server with nginx image and 1 replica
