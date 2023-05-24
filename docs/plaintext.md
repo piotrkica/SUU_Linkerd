@@ -1,7 +1,5 @@
 # Plaintext sniffing
 
-Plaintext
-
 ```bash
 # Create a deployment for the server with nginx image and 1 replica
 kubectl create deployment server --image nginx --replicas 1

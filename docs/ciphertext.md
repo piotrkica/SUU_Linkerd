@@ -52,14 +52,14 @@ kubectl -c nginx cp index3.html server-<new...>:usr/share/nginx/html/index.html
 kubectl -c nginx exec server-<new...> -- nginx -s reload
 ```
 
-Write down **\`<server-new-ip>`**:
+Write down **`<server-new-ip>`**:
 
 ```bash
 # Write down the IP address of the server pod
 kubectl get pods -l app=server -o wide
 ```
 
-Find and copy netnamespace **`<server-new-ns>`** having **\`<server-new-ip>`**:
+Find and copy netnamespace **`<server-new-ns>`** having **`<server-new-ip>`**:
 
 ```bash
 # Find and copy the netnamespace <server-new-ns> corresponding to <server-new-ip>

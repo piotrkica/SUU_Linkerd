@@ -4,8 +4,6 @@ The following commands are intended for execution on a RHEL-compatible operating
     2. Initiate the necessary services to enable desired functionalities.
     3. Safely terminate the firewall service to manage network access effectively.
 
-Please exercise professionalism and caution when executing these commands.
-
 ```bash
 # Enable necessary modules
 sudo modprobe br-netfilter
