@@ -1,0 +1,55 @@
+site_name: Linkerd Docs
+
+theme:
+  name: material
+  features:
+    - content.code.copy
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Linkerd-18 - Linkerd Case Study: "index.md"
+  - Background: "background.md"
+  - Case study concept: "case_study_concept"
+  - Environment configuration description: "environment_configuration_description.md"
+  - Solution architecture: "solution_architecture.md"
+  - "Demo and step by step instruction":
+      - "Configuration set-up": "configuration_setup.md"
+      - "Installation and execution procedure": "installation.md"
+      - "Plaintext sniffing": "plaintext.md"
+      - "Ciphertext sniffing": "ciphertext.md"
+  # - Configuration set-up: "configuration_setup.md"
+  # - Installation and execution procedure: "installation.md"
+  # - Plaintext sniffing: "plaintext.md"
+  # - Ciphertext sniffing: "ciphertext.md"
+  - Summary - conclusions: "summary.md"
+  - Team and contribution: "team_and_contribution.md"
+  - Bibliography: "zbibliography.md"
+
+plugins:
+  - search
+  - bibtex:
+      bib_file: "docs/refs.bib"
+
+markdown_extensions:
+  - pymdownx.snippets
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - footnotes
