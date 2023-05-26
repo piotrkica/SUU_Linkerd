@@ -37,6 +37,7 @@ nav:
   # - Ciphertext sniffing: "ciphertext.md"
   - Summary - conclusions: "summary.md"
   - Team and contribution: "team_and_contribution.md"
+  - Bibliography: "bibliography.md"
 
 plugins:
   - search
